@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+/* 全局常用设置 */
+*{word-wrap:break-word;word-break:break-all;} 
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { padding:0; margin:0; } 
+table { border-collapse:collapse; border-spacing:0; } 
+fieldset,img { border:0;padding:0;margin:0;} 
+ol,ul,li {list-style-type:none;}
+h1,h2,h3,h4,h5,h6 { font-weight: normal; font-size: 100%; } 
+a img{ border:0px;cursor:pointer; }
+a { color:#333; text-decoration:none;cursor:pointer;}
+a:hover { color:#1582dc; text-decoration:none}
+body{ font-size:14px;background:#fff;overflow-x:hidden;width:100%;font-family:"微软雅黑 Regular","Microsoft YaHei";color:#000;}
+input{outline:none;}
+
+
+/*--基础数据--*/
+.pull-left{float:left !important;}.pull-right{float:right !important;}
+.cl{clear:both;}
+/*--基础数据--*/
+input::-webkit-input-placeholder{  color:#333; }
+input::-moz-placeholder{color:#333;}
+input:-moz-placeholder{color:#333;}
+input:-ms-input-placeholder{color:#333;}
